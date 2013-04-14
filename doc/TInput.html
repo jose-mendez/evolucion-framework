@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin t&iacute;tulo</title>
+</head>
+
+<body>
+<h1> TInput</h1>
+<p>(PHP 4, PHP 5)</p>
+<p>Localizacion: Tin.php</p>
+<h3>Descripcion:</h3>
+<p>Esta clase permite crear elementos de un formulario de forma muy sencilla, los elementos que permite crear son:<br />
+ text<br />
+ password<br />
+ chackbox<br />
+ radio<br />
+ select<br />
+ submit<br />
+ reset<br />
+ textarea<br />
+ file<br />
+ hidden<br />
+ image<br />
+ button<br />
+ *datepicker<br />
+ **new</p>
+<p>* este elemento permite selecionar una fecha a partir de un calendario grafico<br />
+ ** permite introducir dentro de la estructura cualquier elemento ejemplo un sistema captcha</p>
+<h3>Los metodos:</h3>
+<p> <strong>TInput</strong>($input_type)<br />
+  <strong>setInput</strong>($input_name,$input_label,$input_id,$input_parameters,$arr_case_content='')<br />
+  <strong>getInput</strong>()<br />
+  <strong>getInput_tab</strong>()<br />
+  <strong>renderInput</strong>()<br />
+  <strong>getInputvalues</strong>($typekey='num')</p>
+<h3>Los parametros:</h3>
+<p>$input_type Recibe los nombres de los elementos que queremos crear entre comillas (cadena de texto) y separados por coma (,), los nombres de los eementos son los que aparecen en la descripcion.</p>
+<p>$input_name Recibe los nombres (de la etiqueta name de HTML) de los elementos a crear, entre comillas (cadena de texto) separado por slash y coma (/,), o se puede usar la funcion <strong>do_arr</strong>() para crear un arreglo con los nombres de los elementos, pero si se usa de esta forma el resto de los parametros deben usar tambien la funcion <strong>do_arr</strong>()</p>
+<p>$input_label </p>
+</body>
+</html>
